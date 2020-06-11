@@ -1,0 +1,193 @@
+body {
+  display: block;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: Arial;
+  height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+.headerUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.headerUL li {
+  float: left;
+}
+
+.headerUL li a {
+  display: block;
+  color: #3C8DC3;
+  text-align: center;
+  padding: 25px 10px;
+  text-decoration: none;
+}
+
+.title{
+  color: grey;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.indextitle{
+    font-size: 30px;
+}
+
+.indexpara{
+    margin-top: -10px;
+}
+
+.footer {   
+  position: relative;
+  margin-top: 50px;
+  bottom: 0;
+  width: 100%;
+  color: grey;
+}
+
+
+.footer a {
+  color: #3C8DC3;
+  text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+input[type=text],input[type=email],input[type=password], select, textarea {
+  width: 30%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+input[type=file]{
+  width: 30%;
+  padding-bottom: 10px;
+  resize: vertical;
+  margin-left: 10px;
+}
+
+input[type=checkbox]{
+  padding: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  margin-left: 95px;
+}
+
+.adminDropdown{
+  padding: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  margin-left: 95px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.FileButton{
+  background-color: #3C8DC3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.BookContactButton {
+  background-color: #3C8DC3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 90px;
+}
+
+.LoginButton {
+  background-color: #3C8DC3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 90px;
+}
+
+
+.RegisterButton {
+  background-color: #3C8DC3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 175px;
+}
+
+input[type=submit]:hover {
+  background-color: lightblue;
+}
+
+.col-25 {
+  float: left;
+  width: 8%;
+  margin-top: 6px;
+}
+
+.col-26 {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vl {
+  border-left: 1px solid grey;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
